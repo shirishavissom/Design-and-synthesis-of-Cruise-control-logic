@@ -1,0 +1,14 @@
+#
+# Written by : DC-Transcript, Version 1999.05 -- Dec 18, 1998
+# Date       : Fri Jul 23 16:04:04 1999
+#
+
+#
+# Translation of script: .synopsys_dcsh.setup
+#
+
+set search_path [concat  [list] $search_path]
+set link_library [list class.db]
+set target_library [list class.db]
+set symbol_library [list class.sdb]
+define_design_lib work -path work
